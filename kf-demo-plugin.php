@@ -5,6 +5,7 @@
  * Description: Kevin's demo plugin for testing things in WordPress
  * Version: 1.0.0
  * Author: Kevin From @ Mindthemedia
+ * Author URI: https://mindthemedia.com
  */
 
 use App\Hooks\HookManager;
