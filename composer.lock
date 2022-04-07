@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9f717ed33aabb2889493527230568fbc",
+    "packages": [
+        {
+            "name": "xicrow/php-debug",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xicrow/php-debug.git",
+                "reference": "01eb8605ec08cbc89750d9acb519eb5ad131e428"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xicrow/php-debug/zipball/01eb8605ec08cbc89750d9acb519eb5ad131e428",
+                "reference": "01eb8605ec08cbc89750d9acb519eb5ad131e428",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xicrow\\PhpDebug\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Ebsen",
+                    "email": "xicrow@gmail.com",
+                    "homepage": "http://jan-ebsen.dk",
+                    "role": "developer"
+                }
+            ],
+            "description": "PHP debugging tools",
+            "keywords": [
+                "debug",
+                "php",
+                "tools"
+            ],
+            "time": "2018-09-16T01:48:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "kevinfrom/kf-demo-plugin",
+    "description": "Kevin's demo plugin for testing things in WordPress",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kevin From",
+            "email": "kf@mindthemedia.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "xicrow/php-debug": "~3.0"
+    }
+}
