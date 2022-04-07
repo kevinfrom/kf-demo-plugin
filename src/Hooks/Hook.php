@@ -6,13 +6,10 @@ abstract class Hook
 {
 
     protected string $hook;
-    protected string $name;
     protected int $priority = 10;
     protected int $accepted_args = 1;
 
     abstract public function __construct();
-
-    abstract public function receiver();
 
     abstract public function register(): void;
 

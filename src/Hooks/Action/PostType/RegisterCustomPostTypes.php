@@ -12,7 +12,6 @@ class RegisterCustomPostTypes extends Action
     public function __construct()
     {
         $this->hook = 'init';
-        $this->name = __CLASS__;
     }
 
     public function receiver(): void

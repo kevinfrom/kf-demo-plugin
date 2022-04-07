@@ -7,8 +7,6 @@ use App\Hooks\Hook;
 abstract class Action extends Hook
 {
 
-    abstract public function receiver(): void;
-
     final public function register(): void
     {
         add_action(
