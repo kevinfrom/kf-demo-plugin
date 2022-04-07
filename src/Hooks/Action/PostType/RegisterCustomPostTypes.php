@@ -3,8 +3,8 @@
 namespace App\Hooks\Action\PostType;
 
 use App\Hooks\Action\Action;
-use App\PostType\ReadOnlyPostType;
-use App\PostType\RegularPostType;
+use Headless\Utility\PostType\ReadOnlyPostType;
+use Headless\Utility\PostType\RegularPostType;
 
 class RegisterCustomPostTypes extends Action
 {
@@ -17,6 +17,14 @@ class RegisterCustomPostTypes extends Action
     public function receiver(): void
     {
         array_map(static fn($postType) => $postType->register(), [
+            new RegularPostType(
+                'case',
+                'Case'
+            ),
+            new RegularPostType(
+                'material',
+                'Material'
+            ),
             new RegularPostType(
                 'segment',
                 'Segment',
