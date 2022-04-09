@@ -1,7 +1,7 @@
 {
     "name": "kevinfrom/kf-demo-plugin",
     "description": "Kevin's demo plugin for testing things in WordPress",
-    "type": "library",
+    "type": "wordpress-plugin",
     "authors": [
         {
             "name": "Kevin From",
